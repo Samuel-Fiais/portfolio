@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Página 1 */
+
+/* Cabeçalho */
+.page1 {
+    background: linear-gradient(252.98deg, #595151 28.39%, #A049BF 99.53%);
+    padding-bottom: 50px;
+}
+
+.cabecalho {
+    display: flex;
+    padding: 30px;
+    justify-content: space-around;
+    gap: 400px;
+}
+
+.cabecalho-nome {
+    font-family: 'Sarala', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 31px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala';
+    font-size: 20px;
+    color: white;
+}
+
+/* Apresentação */
+.apresentacao {
+    display: flex;
+    justify-content: space-around;
+}
+
+.apresentacao-comeco {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.apresentacao-comeco-escrito {
+    margin-top: 80px;
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.apresentacao-comeco-escrito-conhecer {
+    font-size: 96px;
+}
+
+.apresentacao-comeco-botao {
+    width: 401px;
+    height: 96px;
+    background: #FFFFFF;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 24px;
+    font-family: 'Sarala';
+    font-weight: 700;
+    font-size: 64px;
+    color: #A049BF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Links */
+.apresentacao-comeco-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.apresentacao-comeco-links-item {
+    width: 466px;
+    height: 96px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    border-radius: 24px;
+    font-family: 'Sarala';
+    font-weight: 700;
+    font-size: 64px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #595151;
+
+}
+
+.img {
+    margin: 0px 30px;
+    width: 64px;
+    height: 64px;
+    stroke: #595151;
+}
+
+.apresentacao-hello {
+    margin-left: 110px;
+    margin-top: 80px;
+    font-family: 'JetBrains Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
