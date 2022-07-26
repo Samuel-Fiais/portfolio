@@ -156,3 +156,30 @@ button:not(:hover) {
     align-items: center;
     color: #FFFFFF;
 }
+
+/* Página 2 */
+.sobre {
+    background: #595151;
+    padding: 100px;
+}
+
+.sobre-titulo {
+    font-family: 'Righteous';
+    font-weight: 400;
+    font-size: 64px;
+    color: white;
+}
+
+.sobre-texto {
+    margin-top: 30px;
+    border-top: 1px solid #FFFFFF;
+}
+
+.sobre-texto-paragrafo {
+    margin-top: 30px;
+    font-family: 'Sarala';
+    font-weight: 400;
+    font-size: 32px;
+    color: white;
+}
+
